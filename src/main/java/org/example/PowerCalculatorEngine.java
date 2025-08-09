@@ -6,7 +6,7 @@ package org.example;
  * This class provides the core mathematical functionality to calculate x^y (x raised to the power of y)
  * with proper handling of edge cases, special values, and mathematical precision.
  * 
- * @author Your Name
+ * @author Kapil Soni
  * @version 1.0.0
  */
 public class PowerCalculatorEngine {
