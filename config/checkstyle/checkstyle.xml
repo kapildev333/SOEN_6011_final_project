@@ -74,5 +74,9 @@
         <!-- Checks for annotations -->
         <module name="MissingDeprecated"/>
         <module name="MissingOverride"/>
+
+        <!-- Checks for Javadoc comments -->
+        <module name="AnnotationUseStyle"/>
+
     </module>
 </module> 
