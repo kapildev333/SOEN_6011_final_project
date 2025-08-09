@@ -1,6 +1,7 @@
 {
   "name": "soen-6011-final-project",
   "version": "0.0.0-development",
+  "private": true,
   "description": "SOEN 6011 Final Project",
   "repository": {
     "type": "git",
