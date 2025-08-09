@@ -8,7 +8,7 @@ module.exports = {
         "semantic-release": "^22.0.12"
     },
     "release": {
-        "branches": ["main"],
+        "branches": ["main","master","origin/main","origin/master"],
         "plugins": [
             "@semantic-release/commit-analyzer",
             "@semantic-release/release-notes-generator",
