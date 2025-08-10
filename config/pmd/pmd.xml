@@ -1,0 +1,229 @@
+<?xml version="1.0"?>
+<ruleset name="Custom Rules"
+         xmlns="http://pmd.sourceforge.net/ruleset/2.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0
+         https://pmd.sourceforge.net/ruleset_2_0_0.xsd">
+
+    <description>
+        PMD rules for TanCalculator project
+    </description>
+
+    <!-- Include all rules from these categories -->
+    <rule ref="category/java/bestpractices.xml"/>
+    <rule ref="category/java/codestyle.xml"/>
+    <rule ref="category/java/design.xml"/>
+    <rule ref="category/java/documentation.xml"/>
+    <rule ref="category/java/errorprone.xml"/>
+    <rule ref="category/java/multithreading.xml"/>
+    <rule ref="category/java/performance.xml"/>
+    <rule ref="category/java/security.xml"/>
+
+    <!-- Exclude some rules that might be too strict for this project -->
+    <rule ref="category/java/codestyle.xml/AtLeastOneConstructor">
+        <priority>4</priority>
+    </rule>
+
+    <rule ref="category/java/codestyle.xml/OnlyOneReturn">
+        <priority>4</priority>
+    </rule>
+
+    <rule ref="category/java/design.xml/ExcessiveClassLength">
+        <priority>4</priority>
+    </rule>
+
+    <rule ref="category/java/design.xml/ExcessivePublicCount">
+        <priority>4</priority>
+    </rule>
+
+    <rule ref="category/java/design.xml/TooManyPublicMethods">
+        <priority>4</priority>
+    </rule>
+
+    <rule ref="category/java/errorprone.xml/DataflowAnomalyAnalysis">
+        <priority>4</priority>
+    </rule>
+
+    <rule ref="category/java/performance.xml/ConsecutiveLiteralAppends">
+        <priority>4</priority>
+    </rule>
+
+    <rule ref="category/java/performance.xml/ConsecutiveAppendsShouldReuse">
+        <priority>4</priority>
+    </rule>
+
+    <rule ref="category/java/performance.xml/UseStringBufferForStringAppends">
+        <priority>4</priority>
+    </rule>
+
+    <rule ref="category/java/performance.xml/UseArrayListInsteadOfVector">
+        <priority>4</priority>
+    </rule>
+
+    <rule ref="category/java/performance.xml/UseArraysAsList">
+        <priority>4</priority>
+    </rule>
+
+    <rule ref="category/java/performance.xml/AvoidArrayLoops">
+        <priority>4</priority>
+    </rule>
+
+    <rule ref="category/java/performance.xml/UseLocaleWithCaseConversions">
+        <priority>4</priority>
+    </rule>
+
+    <rule ref="category/java/performance.xml/AvoidInstantiatingObjectsInLoops">
+        <priority>4</priority>
+    </rule>
+
+    <rule ref="category/java/performance.xml/UseStringBufferLength">
+        <priority>4</priority>
+    </rule>
+
+    <rule ref="category/java/performance.xml/ReplaceVectorWithList">
+        <priority>4</priority>
+    </rule>
+
+    <rule ref="category/java/performance.xml/SimplifyStartsWith">
+        <priority>4</priority>
+    </rule>
+
+    <rule ref="category/java/performance.xml/UnnecessaryWrapperObjectCreation">
+        <priority>4</priority>
+    </rule>
+
+    <rule ref="category/java/performance.xml/UseIndexOfChar">
+        <priority>4</priority>
+    </rule>
+
+    <rule ref="category/java/performance.xml/InefficientEmptyStringCheck">
+        <priority>4</priority>
+    </rule>
+
+    <rule ref="category/java/performance.xml/InefficientStringBuffering">
+        <priority>4</priority>
+    </rule>
+
+    <rule ref="category/java/performance.xml/InsufficientStringBufferDeclaration">
+        <priority>4</priority>
+    </rule>
+
+    <rule ref="category/java/performance.xml/UselessStringValueOf">
+        <priority>4</priority>
+    </rule>
+
+    <rule ref="category/java/performance.xml/StringToString">
+        <priority>4</priority>
+    </rule>
+
+    <rule ref="category/java/performance.xml/StringInstantiation">
+        <priority>4</priority>
+    </rule>
+
+    <rule ref="category/java/performance.xml/AvoidAutoboxing">
+        <priority>4</priority>
+    </rule>
+
+    <rule ref="category/java/performance.xml/UseAddAll">
+        <priority>4</priority>
+    </rule>
+
+    <rule ref="category/java/performance.xml/UseArraysAsList">
+        <priority>4</priority>
+    </rule>
+
+    <rule ref="category/java/performance.xml/UseCollectionIsEmpty">
+        <priority>4</priority>
+    </rule>
+
+    <rule ref="category/java/performance.xml/UseStringBufferForStringAppends">
+        <priority>4</priority>
+    </rule>
+
+    <rule ref="category/java/performance.xml/UseStringBufferLength">
+        <priority>4</priority>
+    </rule>
+
+    <rule ref="category/java/performance.xml/ConsecutiveLiteralAppends">
+        <priority>4</priority>
+    </rule>
+
+    <rule ref="category/java/performance.xml/UseIndexOfChar">
+        <priority>4</priority>
+    </rule>
+
+    <rule ref="category/java/performance.xml/InefficientEmptyStringCheck">
+        <priority>4</priority>
+    </rule>
+
+    <rule ref="category/java/performance.xml/InefficientStringBuffering">
+        <priority>4</priority>
+    </rule>
+
+    <rule ref="category/java/performance.xml/InsufficientStringBufferDeclaration">
+        <priority>4</priority>
+    </rule>
+
+    <rule ref="category/java/performance.xml/UselessStringValueOf">
+        <priority>4</priority>
+    </rule>
+
+    <rule ref="category/java/performance.xml/StringToString">
+        <priority>4</priority>
+    </rule>
+
+    <rule ref="category/java/performance.xml/StringInstantiation">
+        <priority>4</priority>
+    </rule>
+
+    <rule ref="category/java/performance.xml/AvoidAutoboxing">
+        <priority>4</priority>
+    </rule>
+
+    <rule ref="category/java/performance.xml/UseAddAll">
+        <priority>4</priority>
+    </rule>
+
+    <rule ref="category/java/performance.xml/UseCollectionIsEmpty">
+        <priority>4</priority>
+    </rule>
+
+    <rule ref="category/java/performance.xml/ReplaceVectorWithList">
+        <priority>4</priority>
+    </rule>
+
+    <rule ref="category/java/performance.xml/SimplifyStartsWith">
+        <priority>4</priority>
+    </rule>
+
+    <rule ref="category/java/performance.xml/UnnecessaryWrapperObjectCreation">
+        <priority>4</priority>
+    </rule>
+
+    <rule ref="category/java/performance.xml/AvoidArrayLoops">
+        <priority>4</priority>
+    </rule>
+
+    <rule ref="category/java/performance.xml/UseLocaleWithCaseConversions">
+        <priority>4</priority>
+    </rule>
+
+    <rule ref="category/java/performance.xml/AvoidInstantiatingObjectsInLoops">
+        <priority>4</priority>
+    </rule>
+
+    <rule ref="category/java/performance.xml/ConsecutiveAppendsShouldReuse">
+        <priority>4</priority>
+    </rule>
+
+    <rule ref="category/java/performance.xml/UseArrayListInsteadOfVector">
+        <priority>4</priority>
+    </rule>
+    <rule ref="category/java/performance.xml/UseStringBufferForStringAppends">
+        <priority>4</priority>
+    </rule>
+    <rule ref="category/java/performance.xml/UseStringBufferLength">
+        <priority>4</priority>
+    </rule>
+
+</ruleset>
