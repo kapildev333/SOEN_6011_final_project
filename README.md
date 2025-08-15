@@ -169,7 +169,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Author
 
-[Kapil Soni] - [kapssoni333@gmail.com]
+Kapil Soni - kapssoni333@gmail.com
 
 ## Acknowledgments
 
@@ -181,6 +181,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Repository Information
 
 - **Hosting Service**: GitHub
-- **Repository URL**: [Your GitHub Repository URL]
+- **Repository URL**: [SOEN_6011_final_project](https://github.com/kapildev333/SOEN_6011_final_project)
 - **Commit Quality**: High-quality commit messages following conventional commits
 - **Documentation**: Comprehensive README and inline code documentation 
